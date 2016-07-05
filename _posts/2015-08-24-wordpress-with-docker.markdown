@@ -3,6 +3,7 @@ layout: post
 title: "Wordpress with Docker"
 date:   2015-08-24 10:27:07 -0500
 categories: development
+tags: docker, wordpress
 ---
 I have been trying to set up my Wordpress sites using Docker containers, partly as an effort to learn Docker, and to learn more about server setup, be more familiar with the command line interface rather than the GUI of cPanel. I was using <a href="https://asmallorange.com">ASmallOrange</a> as my hosting solution, and they were quite great. It was cheap. It was quite simple to set everything up using the cPanel (the GUI makes it quite easy to explore around), and their customer support is quite good. I'd recommend it.
 

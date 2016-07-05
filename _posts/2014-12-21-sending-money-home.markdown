@@ -3,6 +3,7 @@ layout: post
 title:  "Sending Money Home"
 date:   2014-12-21 10:27:07 -0500
 categories: ideas
+tags: remittance, ted
 ---
 <div style="text-align: center;">
 <iframe src="https://embed-ssl.ted.com/talks/dilip_ratha_the_hidden_force_in_global_economics_sending_money_home.html" width="700" height="400" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>

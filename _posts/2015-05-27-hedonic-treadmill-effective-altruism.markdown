@@ -3,6 +3,7 @@ layout: post
 title: "Hedonic Treadmill and Effective Altruism"
 date:   2015-05-27 10:27:07 -0500
 categories: ideas
+tags: ted, 80000hours, givewell, givingwhatwecan, effectivealtruism
 ---
 Came across this TED talk this morning, and it turned out to be one of those talks that really energize me and give me so many ideas. It is exactly what I need for my slump lately.
 

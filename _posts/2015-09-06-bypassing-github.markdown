@@ -3,6 +3,7 @@ layout: post
 title: "Bypassing Github when using Git"
 date:   2015-09-06 10:27:07 -0500
 categories: development
+tags: git, github
 ---
 Overheard on the internet (paraphrased):
 <blockquote>"Although Git is a distributed system, everybody ends up pushing to GitHub"</blockquote>
