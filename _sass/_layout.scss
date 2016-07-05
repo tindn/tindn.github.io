@@ -22,6 +22,10 @@
     &:visited {
         color: $grey-color-dark;
     }
+
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 .site-nav {
@@ -181,6 +185,14 @@
 
     > li {
         margin-bottom: $spacing-unit;
+
+        h2 {
+            margin-bottom: 0;
+        }
+
+        p {
+            margin-top: $spacing-unit / 2;
+        }
     }
 }
 

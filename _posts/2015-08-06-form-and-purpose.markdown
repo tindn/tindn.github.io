@@ -2,7 +2,7 @@
 layout: post
 title: "Form and Purpose"
 date:   2015-08-06 10:27:07 -0500
-categories: ideas
+categories: thoughts
 ---
 He who seeks Truth
 Shall find Beauty
