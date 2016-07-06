@@ -42,4 +42,5 @@ The new entrypoint shell script file is
     echo '* Starting MySQL'
     chown -R mysql:root /var/run/mysqld/
     /entrypoint.sh mysqld --user=mysql --console
+    
 And just like that, the mysql container auto-magically works. Happy coding!
