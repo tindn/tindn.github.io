@@ -7,6 +7,6 @@ tags: design, objects
 ---
 Some thoughts from the movie [Objectified](http://againstdesign.com/objectified-hd-documentary-with-subtitles/){:target="_blank"}
 
-*Designs that get better with use
+* Designs that get better with use
 
-*Democratic design
+* Democratic design
