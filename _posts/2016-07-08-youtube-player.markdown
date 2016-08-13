@@ -3,7 +3,7 @@ layout: post
 title: "Youtube Player"
 date: 2016-07-08 12:36:00 -0500
 categories: thoughts
-tags: design, yotube
+tags: design, youtube
 ---
 
 At the bottom left corner of the youtube video player, as one would expect, the elapsed/total time is displayed. 
