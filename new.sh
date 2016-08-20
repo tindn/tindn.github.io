@@ -1,6 +1,8 @@
 #!/bin/bash
 echo "Enter post title: "
 read _title
+echo "Categories: "
+read _categories
 echo "Tags: "
 read _tags
 _dateString=$(date +'%F')
@@ -10,6 +12,7 @@ _frontMatter=$"---
 layout: post
 title: $_title
 date: $_dateTimeString
+categories: $_categories
 tags: $_tags
 ---"
 _lowercaseTitle=$(echo "$_title" | tr '[:upper:]' '[:lower:]')

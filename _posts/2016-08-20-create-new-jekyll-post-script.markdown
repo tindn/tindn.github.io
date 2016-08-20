@@ -3,6 +3,7 @@ layout: post
 title: Create new jekyll post script
 date: 2016-08-20 11:17:23 -0500
 tags: jekyll, bash
+categories: development
 ---
 Programmers are lazy, and as a programmer, I feel too lazy to create new Jekyll posts, mostly too lazy
 to type the date and the front matter. So I tried to create a bash script to do so. However, with my
@@ -16,6 +17,8 @@ overcomplicating things. Below is my script.
     #!/bin/bash
     echo "Enter post title: "
     read _title
+	echo "Categories: "
+	read _categories
     echo "Tags: "
     read _tags
     _dateString=$(date +'%F')
@@ -25,6 +28,7 @@ overcomplicating things. Below is my script.
 		layout: post
 		title: $_title
 		date: $_dateTimeString
+		categories: $_categories
 		tags: $_tags
 	---"
     _lowercaseTitle=$(echo "$_title" | tr '[:upper:]' '[:lower:]')
