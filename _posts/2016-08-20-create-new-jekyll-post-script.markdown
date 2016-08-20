@@ -24,7 +24,7 @@ overcomplicating things. Below is my script.
     _dateString=$(date +'%F')
     _dateTimeString=$(date +'%F %T %z')
     _postFolder=./_posts
-    _frontMatter=$"
+    _frontMatter=$---"
 		layout: post
 		title: $_title
 		date: $_dateTimeString
