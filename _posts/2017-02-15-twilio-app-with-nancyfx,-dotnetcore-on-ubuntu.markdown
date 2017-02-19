@@ -214,7 +214,7 @@ From: +19999999999
 ApiVersion: 2010-04-01
 </code></pre>
 
-*** *NOTE* *** Obviously, this is content getting transfered over the wire with HTTP,
+***NOTE*** Obviously, this is content getting transfered over the wire with HTTP,
 which is **INSECURE**. Therefore, please configure your server to use HTTPS. 
 The guide to do so can be found 
 [here](https://www.digitalocean.com/community/tutorials/how-to-create-an-ssl-certificate-on-nginx-for-ubuntu-14-04){:target="_blank"}.
