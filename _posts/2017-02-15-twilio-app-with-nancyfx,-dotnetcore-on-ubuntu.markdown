@@ -23,7 +23,7 @@ The application is called Lily, and is hosted on my
 3. Install dotnetcore on the server. The step-by-step instructions can be found 
 [here](https://www.microsoft.com/net/core#linuxubuntu). To save you a click, 
 assuming you're using Ubunto 16.04, the steps are
-    
+    <pre><code>
     sudo sh -c 'echo "deb [arch=amd64] https://apt-mo.trafficmanager.net/repos/dotnet-release/ xenial main" > /etc/apt/sources.list.d/dotnetdev.list'
 
     sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 417A0893
@@ -31,10 +31,11 @@ assuming you're using Ubunto 16.04, the steps are
     sudo apt-get update
 
     sudo apt-get install dotnet-dev-1.0.0-preview2.1-003177
-
-Please check with the website to get the latest information as dotnetcore is changing
-quite rapidly. The dotnetcore package mentioned above is the .NET Core 1.1, as listed 
-[here](https://www.microsoft.com/net/download/linux)
+    
+    </code></pre>
+    Please check with the website to get the latest information as dotnetcore is changing
+    quite rapidly. The dotnetcore package mentioned above is the .NET Core 1.1, as listed 
+    [here](https://www.microsoft.com/net/download/linux)
 
 4. Once you have installed dotnet, you can check the version by running 
 'dotnet --version'. The version being used is **1.0.0-preview2-1-003177**.
