@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Twilio App with NancyFx, DotNetCore on Ubuntu
+title: Twilio app with NancyFx and .Net Core on Ubuntu
 date: 2017-02-15 21:52:33 -0600
 categories: development
 tags: twilio, dotnet, nancy, nancyfx, dotnetcore, ubuntu
@@ -77,8 +77,7 @@ did not use a custom domain, you can use `curl http://<dropletIp>:5000` or which
 port you configured with nginx.
 12. Go to your twilio account page, go to **Phone Numbers** page, and select the phone 
 number you want to use with this app. Under **Messaging**, there's an option to specify 
-when a message comes in. Specify the url and path we setup to receive the POST request.
-In my case, it was http://lily.tindnguyen.com/twilio. 
+the url for when a message comes in. In my case, it was http://lily.tindnguyen.com/twilio. 
 13. And there you have it, a working .NET app talking to and listening to Twilio, written 
 on the lightweight NancyFx. From this basic app, the sky is the limit with what you can do.
 
@@ -212,7 +211,7 @@ From: +19999999999
 ApiVersion: 2010-04-01
 </code></pre>
 
-*NOTE* Obviously, this is content getting transfered over the wire with HTTP,
+*** *NOTE* *** Obviously, this is content getting transfered over the wire with HTTP,
 which is **INSECURE**. Therefore, please configure your server to use HTTPS. 
 The guide to do so can be found [here](https://www.digitalocean.com/community/tutorials/how-to-create-an-ssl-certificate-on-nginx-for-ubuntu-14-04).
 There are many options for an SSL Cert, such as [Let's Encrypt](https://letsencrypt.org).
