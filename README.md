@@ -1,1 +1,3 @@
-# Tin Nguyen
+### Welcome to my homepage
+
+[Blog](/blog)
